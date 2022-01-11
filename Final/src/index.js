@@ -1,3 +1,4 @@
+import axios from 'axios';
 const axios = require('axios').default;
 axios.all([
     axios.get('https://api.github.com/users/Dreammary0')

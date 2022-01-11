@@ -3,8 +3,6 @@ let zerotime = new Date(0,0,0 ,0 ,0 ,0 ,0);
 let timeout;
 let press_start = document.querySelector('#play');
 let press_stop = document.querySelector('#stop');
-const  regeneratorRuntime  =  require ( "regenerator-runtime" ) ;
-require("regenerator-runtime/runtime");
 function showTime()
 {
     let box = document.querySelector('.timing');

@@ -4,6 +4,7 @@
   "scripts": {
     "start": "parcel public/index.html --open",
     "bild": "parcel buil public/index.html",
+    "type":"module",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

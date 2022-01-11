@@ -1,3 +1,4 @@
+import axios from 'axios';
 const axios = require('axios').default;
 axios
     .get('https://fortnite-api.com/v1/playlists')
